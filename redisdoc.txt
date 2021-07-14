@@ -1,0 +1,9 @@
+127.0.0.1:6379> HMSET product001 name "Potato" price "100" brand "null" rating "5"
+OK
+127.0.0.1:6379> HMSET product002 name "Tomato" price "50" brand "null" rating "4"
+OK
+127.0.0.1:6379> HMSET product001 name "Potato" price "100" brand "null" rating "5"
+OK
+127.0.0.1:6379> HMSET product002 name "Tomato" price "50" brand "null" rating "4"
+OK
+127.0.0.1:6379>

@@ -1,0 +1,16 @@
+<h1>
+  Search Products
+</h1>
+{{#if error}} <span>{{error}}</span>{{/if}}
+<form class="form-inline" method="POST" action="/product/search">
+  <div class="form-group">
+    <input
+      type="text"
+      name="id"
+      placeholder="Search product by id"
+      class="form-control"
+    />
+  </div>
+  <input type="submit" class="btn btn-primary" />
+
+</form>
